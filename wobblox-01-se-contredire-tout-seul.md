@@ -1,6 +1,6 @@
 # Un jeu sur le Play Store sans être développeur
 
-*Product designer, j'ai conçu, développé et publié un jeu de physique Android en pilotant Claude Code. Récit en quatre épisodes. Celui-ci raconte les deux premières semaines : ce que la machine abat à une vitesse déraisonnable, et ce qu'elle ne décidera jamais à votre place.*
+*Product designer, j'ai conçu, développé et publié un jeu de physique Android en pilotant Claude Code. Récit en trois épisodes. Celui-ci raconte les deux premières semaines : ce que la machine abat à une vitesse déraisonnable, et ce qu'elle ne décidera jamais à votre place.*
 
 ![Une tour de blocs à visages en plein effondrement, capture réelle du jeu](img/ep1-cover.png)
 
