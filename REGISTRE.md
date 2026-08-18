@@ -8,11 +8,10 @@ Source de vérité du registre d'écriture, calibré sur l'article 1 (`wobblox-0
 
 - **Compte de publication** : https://medium.com/@josephdeffayet
 - **Dépôt** : https://github.com/Vitopya/perso_medium-database.git — synchroniser au fil de l'eau, pas en fin de session.
-- **Série** : 4 épisodes, chronologiques, autoportants.
+- **Série** : 3 épisodes, chronologiques, autoportants. (Resserrée de 4 à 3 le 19/08 : les anciens ép. 3 et 4 alignaient des péripéties sans armes pour le lecteur ; verdict porteur « larmoyant, rien d'utile ». Règle permanente : chaque section livre une technique, un chiffre gagné ou une règle actionnable ; le ton est offensif, jamais subi.)
   1. *Un jeu sur le Play Store sans être développeur* — conception, 10-24 juin. LIVRÉ.
-  2. Le test fermé : 32 inscrits, 35 retours, le retour #23, l'audit à 4/10, l'écart intention/câblage, l'accès production accordé le 20/07. Accroche posée en fin d'épisode 1 : « ce que trente-deux inconnus font à un produit qu'une seule personne avait jugé bon ».
-  3. Exister : baseline 1 visiteur/28 jours, passage en gratuit (Google ne met pas en avant les apps payantes), tags, bande-annonce retirée après mesure DOM, assets produits en jouant, repositionnement jeune public sans toucher au code.
-  4. Le produit chez les autres : les gels, 4 campagnes de correction, l'instrumentation, le mur O(N²) raconté par sa conséquence (le jeu punissait les joueurs qui montaient haut), le record écrit en direct.
+  2. *Ce que trente-deux joueurs ont fait à mon jeu* — test fermé, 35 retours, retour #23, audit 4/10, accès production. LIVRÉ.
+  3. *Sortir un jeu que personne n'attend* — fusion offensive exister + production : 3 gestes ASO gratuits, le jeu comme studio de production (pilote automatique, storyboard exécutable, capteur d'énergie), l'enquête DOM, les gels et l'instrument, le repositionnement à zéro code. LIVRÉ.
 - **Longueur** : 1400-1700 mots par article.
 - **Testeurs** : toujours anonymisés (« une testeuse », « le numéro 23 de mon classement »).
 
