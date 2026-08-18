@@ -14,7 +14,7 @@ Ce récit n'est donc pas celui d'un exploit d'artisan. Ce serait plutôt l'inver
 
 ## La machine dit toujours que c'est fini
 
-La première soirée, j'ai décrit le jeu en quelques phrases : on empile des blocs livrés au hasard, la physique est réelle, la tour penche et finit par s'écrouler, et ça doit faire rire plutôt que frustrer. Claude Code m'a rendu une feuille de route en sept phases et une centaine de pages d'études sur le moteur, la chaîne Android et les pièges connus des jeux d'empilement. Une nuit de travail pour la machine. Seul, j'y aurais passé trois semaines pour un résultat moins documenté.
+La première soirée, j'ai décrit le jeu en quelques phrases : on empile des blocs livrés au hasard, la physique est réelle, la tour penche puis s'écroule. Surtout : ça doit faire rire plutôt que frustrer. Claude Code m'a rendu une feuille de route en sept phases et une centaine de pages d'études sur le moteur, la chaîne Android et les pièges connus des jeux d'empilement. Une nuit de travail pour la machine. Seul, j'y aurais passé trois semaines pour un résultat moins documenté.
 
 Le volume impressionne, puis on apprend à s'en méfier. Parce que la machine a un défaut de caractère : elle conclut. Chaque tâche revient avec son petit rapport, tests verts, mission accomplie. Tout paraît fini en permanence. Sauf qu'un jeu de physique a sa façon bien à lui d'être faux. Une tour qui vibre sans raison. Des blocs qui tremblent comme un frigo mal calé. Aucun rapport automatique ne voit ça.
 
@@ -42,6 +42,8 @@ Il y a enfin la règle du téléphone, apprise à la dure. Deux fois, un écran 
 
 Une fois la version grise validée, tout est parti dans ce que le jeu vidéo appelle le juice. L'effondrement passe au ralenti avec une secousse d'écran. Les blocs s'écrasent à l'impact, proportionnellement à leur vitesse. Il y a de la poussière au sol et des confettis aux paliers de hauteur. Et un coup de pied : quand la partie se perd, la tour reçoit un coup de pied physique pour que la chute devienne un spectacle plutôt qu'une punition. Le dosage de ce coup de pied est le seul réglage du projet où travailler voulait dire, très sérieusement, démolir des tours en boucle pour vérifier que c'était drôle.
 
+La force de ce coup de pied, comme la gravité ou la friction des blocs, vit dans des fichiers de données séparés du code. La machine possède la structure ; je garde les nombres. C'est la disposition que je recommande à quiconque pilote une IA sur un produit : le réglage du ressenti reste un geste au doigt plutôt qu'une négociation avec du code.
+
 ![Les treize expressions des blocs, dessinées par le code](img/ep1-faces.png)
 
 Les visages sont nés d'une contrainte de budget. Zéro asset graphique, donc l'IA les dessine directement par le code. Quatre expressions au début, treize à la fin. Le bloc du bas dort. Celui du milieu fait le malin. Celui du sommet transpire quand la tour penche. Cette solution de pauvre est devenue l'identité du jeu et c'est elle qui figure aujourd'hui sur la fiche du magasin.
@@ -56,7 +58,7 @@ Après quinze jours et 222 commits, j'avais un jeu complet sur mon téléphone, 
 
 Le test mal défini ? Une exigence mal écrite. Le verrou jamais exécuté ? Une priorisation de fatigué. Le document périmé ? De la gouvernance, ou plutôt son absence. L'IA a livré tout ce que je lui ai demandé, vite et sans se plaindre. Mes erreurs comprises, avec la même diligence.
 
-Il manquait la seule chose qu'elle ne fabrique pas : quelqu'un pour me contredire. Une IA conclut. Elle ne conteste pas. Fin juin, j'ai donc ouvert un test fermé sur le Play Store et trente-deux personnes se sont inscrites pour installer le jeu sur leur téléphone. Google impose d'ailleurs cette étape avant d'autoriser la moindre publication, et elle s'est révélée assez rude pour mériter son propre épisode.
+Il manquait la seule chose qu'elle ne fabrique pas : quelqu'un pour me contredire. Une IA conclut. Elle ne conteste pas. Fin juin, j'ai donc ouvert un test fermé sur le Play Store et trente-deux personnes se sont inscrites pour installer le jeu sur leur téléphone. Google impose d'ailleurs cette étape avant d'autoriser la moindre publication ; elle s'est révélée assez rude pour mériter son propre épisode.
 
 Trente-cinq retours sont arrivés. Le numéro 23 de mon classement disait en substance ceci : le moment que j'avais désigné comme le cœur du jeu, cet effondrement censé faire rire, se jouait hors de l'écran. La caméra restait cadrée sur le sommet pendant que la tour s'écroulait en dessous. Le joueur tapait l'écran en croyant à un plantage. Et chaque tap aggravait la chute.
 

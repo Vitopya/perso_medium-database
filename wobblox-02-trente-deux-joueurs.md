@@ -10,7 +10,7 @@ Pour publier un jeu sur le Play Store quand on est un développeur inconnu, Goog
 
 J'ai donc fait ce que font tous les développeurs solo du monde : j'ai écrit à ma famille, à mes amis et à d'anciens collègues. Trente-deux personnes se sont inscrites, chacune avec un code à saisir dans une rubrique du Play Store dont personne ne soupçonne l'existence. Le message d'invitation finissait par « pas de désinstall pendant 14 jours » suivi d'un émoji gêné, parce qu'il faut bien assumer ce qu'on demande.
 
-Sur ces trente-deux, quatre ont produit l'essentiel de la matière : trente-cinq observations écrites, envoyées par messages au fil de leurs parties. Ce ratio n'est pas un échec de recrutement. C'est la proportion normale d'un test : la plupart des gens jouent et se taisent, quelques-uns regardent vraiment. Le travail consiste à s'organiser pour que ces quelques-uns suffisent.
+Sur ces trente-deux, quatre ont produit l'essentiel de la matière : trente-cinq observations écrites, envoyées par messages au fil de leurs parties. Ce ratio est la proportion normale d'un test : la plupart des gens jouent sans rien dire, quelques-uns regardent vraiment. Le travail consiste à s'organiser pour que ces quelques-uns suffisent.
 
 ## Trente-cinq retours, un tableur et une règle
 
@@ -32,6 +32,8 @@ Ce qui me frappe encore, c'est qu'aucun instrument ne pouvait le voir. Mes tests
 
 La correction a occupé le week-end. La caméra a appris trois états distincts : construire, s'effondrer, se remettre. Dès qu'une chute devient irréversible, elle dézoome sur la tour entière, le temps ralentit, un compteur égrène les mètres perdus et l'écran refuse les taps le temps du spectacle. La punition est devenue une scène. C'est aujourd'hui le moment que les gens montrent quand ils font essayer le jeu.
 
+Une autre décision née du test mérite d'être volée. Fallait-il poser le bloc quand le doigt touche l'écran ou quand il le quitte ? Les retours ne s'accordaient pas. Plutôt que trancher, le tutoriel fait désormais essayer les deux gestes, puis demande au joueur lequel il garde ; le choix reste modifiable dans les réglages. On ne tranche pas ce que l'utilisateur peut trancher lui-même, surtout quand chaque camp a raison pour sa propre main.
+
 [IMAGE 2 — ici : deux captures côte à côte du même effondrement. À gauche, le cadrage d'avant : le sommet seul, écran quasi vide. À droite, la caméra spectacle : tour entière, ralenti, compteur de mètres. Format 1500 px de large.]
 
 ## Le refus le plus utile
@@ -40,7 +42,7 @@ Tous les retours ne demandaient pas une correction. Le plus précieux n'en deman
 
 Un testeur m'a écrit, avec une honnêteté que je lui dois encore : ce n'est pas un jeu pour moi, je n'arrive pas à y entrer, même si c'est très propre niveau design. Le but même du jeu, faire tenir une tour en équilibre, ne lui donnait aucune envie.
 
-Le réflexe, quand on reçoit ça sur son propre produit, est d'y lire un problème à régler. On ajouterait un mode, un objectif différent, quelque chose pour le retenir. C'est précisément ce qu'il ne faut pas faire. Ce retour ne décrit pas un défaut, il décrit une frontière : la limite exacte du public. Un jeu d'équilibre ne convertira pas quelqu'un que l'équilibre ennuie. Chaque concession faite pour le retenir diluerait le jeu pour ceux qui l'aiment. J'ai remercié, je n'ai rien changé. Savoir pour qui on ne construit pas est une information de cadrage, pas une critique.
+Le réflexe, quand on reçoit ça sur son propre produit, est d'y lire un problème à régler. On ajouterait un mode, un objectif différent, quelque chose pour le retenir. C'est précisément ce qu'il ne faut pas faire. Ce retour ne décrit pas un défaut, il décrit une frontière : la limite exacte du public. Un jeu d'équilibre ne convertira pas quelqu'un que l'équilibre ennuie. Chaque concession faite pour le retenir diluerait le jeu pour ceux qui l'aiment. J'ai remercié, je n'ai rien changé. Savoir pour qui on ne construit pas est une information de cadrage.
 
 Dans la même veine, une décision a fait l'aller-retour complet. Un matin, j'ai fait ajouter une ombre portée sous les boutons pour les décoller du fond. Le soir même, en la voyant sur téléphone, je l'ai fait retirer. La différence avec une hésitation ordinaire tient à la trace : le retrait est consigné dans le projet comme une règle permanente, avec son motif. Plus personne, ni moi ni la machine, ne repropose cette ombre. Une décision annulée sans trace écrite revient toujours.
 
@@ -60,7 +62,7 @@ La reconquête a suivi l'ordre du diagnostic : router les tokens, brancher le ci
 
 ## Le droit de publier
 
-Le 18 juillet, les tours tremblaient en rafale de blocs et le moteur physique a été remplacé, en une heure, comme prévu au premier jour du projet. Le 20, Google a accordé l'accès à la production. Le questionnaire d'accès demande d'ailleurs quels retours ont été reçus pendant le test et ce qui en a été fait : le tableur aux trente-cinq numéros a servi une dernière fois.
+Le 18 juillet, les tours tremblaient en rafale de blocs et le moteur physique a été remplacé, en une heure, comme prévu au premier jour du projet. Détail que j'aurais aimé lire quelque part avant de commencer : publier des mises à jour pendant le test fermé ne remet pas le compteur des quatorze jours à zéro. Six versions sont parties pendant le test, chacune traçable jusqu'aux retours qui l'avaient motivée. Corriger vite pendant le test compte double : le jeu s'améliore, le dossier d'accès à la production se remplit tout seul. Le 20, Google a accordé l'accès à la production. Le questionnaire d'accès demande d'ailleurs quels retours ont été reçus pendant le test et ce qui en a été fait : le tableur aux trente-cinq numéros a servi une dernière fois.
 
 Un détail administratif dit assez bien où ce récit arrive. La version validée par les testeurs s'appelait 1.3.2 en interne. Pour le public, ce serait la 1.0, une première version, pas une bêta. Mais le compteur technique d'Android n'a pas le droit de redescendre : la « première version » du jeu porte donc, gravé dans ses métadonnées, le numéro 7. Un produit qui sort n'est jamais neuf. Il sort avec son histoire.
 
