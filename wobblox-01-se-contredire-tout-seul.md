@@ -60,4 +60,4 @@ Il manquait la seule chose qu'elle ne fabrique pas : quelqu'un pour me contredir
 
 Trente-cinq retours sont arrivés. Le numéro 23 de mon classement disait en substance ceci : le moment que j'avais désigné comme le cœur du jeu, cet effondrement censé faire rire, se jouait hors de l'écran. La caméra restait cadrée sur le sommet pendant que la tour s'écroulait en dessous. Le joueur tapait l'écran en croyant à un plantage. Et chaque tap aggravait la chute.
 
-L'intention était écrite en toutes lettres depuis le premier jour et le code faisait l'inverse exact. Aucun de mes verrous ne pouvait le voir. L'IA encore moins. Il fallait un inconnu avec un téléphone, un vendredi soir. La suite raconte ce que trente-deux inconnus font à un produit qu'une seule personne avait jugé bon.
+L'intention était écrite en toutes lettres depuis le premier jour et le code faisait l'inverse exact. Aucun de mes verrous ne pouvait le voir. L'IA encore moins. Il fallait un regard extérieur, un téléphone, un vendredi soir. La suite raconte ce que trente-deux joueurs font à un produit qu'une seule personne avait jugé bon.
