@@ -2,7 +2,7 @@
 
 *Product designer, j'ai conçu, développé et publié un jeu de physique Android en pilotant Claude Code. Récit en quatre épisodes. Celui-ci raconte les deux premières semaines : ce que la machine abat à une vitesse déraisonnable, et ce qu'elle ne décidera jamais à votre place.*
 
-[IMAGE 1 — couverture : capture réelle du jeu, une tour de blocs à visages en plein effondrement, le bloc du sommet paniqué. Pas de mockup, pas d'illustration générée : le vrai rendu du jeu.]
+![Une tour de blocs à visages en plein effondrement, capture réelle du jeu](img/ep1-cover.png)
 
 ---
 
@@ -24,7 +24,7 @@ Le 12 juin, j'ai relu le test que l'IA avait écrit pour tenir cette exigence. I
 
 C'est la première leçon du projet et je vous la donne sans emballage : piloter une IA est un métier de définition. Elle exécute ce que vous avez dit à toute vitesse, y compris quand ce que vous avez dit ne veut pas dire ce que vous croyiez. Le feu vert d'une machine vaut ce que vaut la question qu'on lui a posée.
 
-[IMAGE 2 — après cette section : capture d'écran de la version grise, rectangles sans visage sur fond uni, à côté d'une capture du jeu final au même endroit. Légende : quarante-huit heures séparent ces deux écrans du même projet.]
+![La version grise du 13 juin face au jeu final : mêmes règles, deux mondes](img/ep1-greybox-vs-final.png)
 
 ## Interdit de maquiller un jeu ennuyeux
 
@@ -42,7 +42,7 @@ Il y a enfin la règle du téléphone, apprise à la dure. Deux fois, un écran 
 
 Une fois la version grise validée, tout est parti dans ce que le jeu vidéo appelle le juice. L'effondrement passe au ralenti avec une secousse d'écran. Les blocs s'écrasent à l'impact, proportionnellement à leur vitesse. Il y a de la poussière au sol et des confettis aux paliers de hauteur. Et un coup de pied : quand la partie se perd, la tour reçoit un coup de pied physique pour que la chute devienne un spectacle plutôt qu'une punition. Le dosage de ce coup de pied est le seul réglage du projet où travailler voulait dire, très sérieusement, démolir des tours en boucle pour vérifier que c'était drôle.
 
-[IMAGE 3 — ici : la planche des visages, les treize expressions alignées, du bloc endormi au bloc paniqué. Cet asset existe déjà, il est généré par le moteur du jeu.]
+![Les treize expressions des blocs, dessinées par le code](img/ep1-faces.png)
 
 Les visages sont nés d'une contrainte de budget. Zéro asset graphique, donc l'IA les dessine directement par le code. Quatre expressions au début, treize à la fin. Le bloc du bas dort. Celui du milieu fait le malin. Celui du sommet transpire quand la tour penche. Cette solution de pauvre est devenue l'identité du jeu et c'est elle qui figure aujourd'hui sur la fiche du magasin.
 
