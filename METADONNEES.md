@@ -22,7 +22,7 @@
 **Tags** : User Research, Product Design, Beta Testing, Google Play, Indie Game Development
 **Résumé** : Suite du récit d'un jeu mobile construit avec une IA : le passage obligé du test fermé Play Store. Comment trente-cinq retours de proches deviennent un protocole de recherche, pourquoi le retour le plus utile ne demandait aucune correction, et ce qu'un audit sans complaisance révèle quand l'intention et le code divergent.
 **Image de couverture** : ep2-cover.png (effondrement caméra spectacle, compteur visible)
-**Images dans le corps** : ep2-camera-avant-apres.png (après le paragraphe du schéma de geste), ep2-tokens-avant-apres.png (section « L'audit à 4 sur 10 »)
+**Images dans le corps** : ep2-camera-avant-apres.png (après le paragraphe du schéma de geste), ep2-reglages.png (section « L'audit à 4 sur 10 » ; montre aussi la rangée Tap/Relâcher du paragraphe des deux gestes)
 
 ---
 

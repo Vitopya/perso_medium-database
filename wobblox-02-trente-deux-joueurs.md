@@ -2,7 +2,7 @@
 
 *Deuxième épisode du récit de Wobblox, un jeu de physique Android conçu et développé par un product designer pilotant Claude Code. Après deux semaines de fabrication, le jeu devait rencontrer d'autres mains que les miennes. Google l'exige d'ailleurs avant d'autoriser la moindre publication. Voici ce qui en est sorti : trente-cinq retours, un audit sévère et le droit de publier.*
 
-[IMAGE 1 — couverture : capture réelle du jeu pendant un effondrement vu par la caméra spectacle, la tour entière visible en train de basculer, le compteur de mètres perdus à l'écran. Format 1500×750.]
+![Un effondrement vu par la caméra spectacle : la tour entière bascule, deux cœurs déjà perdus](img/ep2-cover.png)
 
 ---
 
@@ -34,7 +34,7 @@ La correction a occupé le week-end. La caméra a appris trois états distincts 
 
 Une autre décision née du test mérite d'être volée. Fallait-il poser le bloc quand le doigt touche l'écran ou quand il le quitte ? Les retours ne s'accordaient pas. Plutôt que trancher, le tutoriel fait désormais essayer les deux gestes, puis demande au joueur lequel il garde ; le choix reste modifiable dans les réglages. On ne tranche pas ce que l'utilisateur peut trancher lui-même, surtout quand chaque camp a raison pour sa propre main.
 
-[IMAGE 2 — ici : deux captures côte à côte du même effondrement. À gauche, le cadrage d'avant : le sommet seul, écran quasi vide. À droite, la caméra spectacle : tour entière, ralenti, compteur de mètres. Format 1500 px de large.]
+![À gauche, la build des testeuses : la caméra reste au sommet, la tour s'écroule hors champ. À droite, la caméra spectacle du correctif](img/ep2-camera-avant-apres.png)
 
 ## Le refus le plus utile
 
@@ -58,7 +58,7 @@ Chaque décision était bonne. Chaque décision existait par écrit. Le produit 
 
 La reconquête a suivi l'ordre du diagnostic : router les tokens, brancher le ciel, offrir le galbe à tous les blocs. Le jeu a changé d'allure en quelques jours sans qu'une seule décision nouvelle soit prise. Tout était déjà décidé depuis des semaines.
 
-[IMAGE 3 — ici : la planche des treize expressions de visages, ou une capture avant/après du branchement des tokens sur un même écran. Format 1500 px de large.]
+![L'écran Réglages, que l'audit citait comme la référence de qualité à répliquer. La rangée « Lâcher du bloc » porte le choix laissé au joueur](img/ep2-reglages.png)
 
 ## Le droit de publier
 

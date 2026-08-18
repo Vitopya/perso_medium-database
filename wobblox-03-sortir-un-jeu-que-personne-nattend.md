@@ -2,7 +2,7 @@
 
 *Dernier épisode du récit de Wobblox, un jeu de physique Android construit par un product designer et Claude Code. Le jeu est en ligne dans 172 pays et il ne s'est rien passé. Cet épisode raconte le mois de riposte, sur deux fronts en même temps : devenir trouvable sans dépenser un euro, puis survivre à ses premiers vrais joueurs. Avec les techniques, les chiffres et les contournements qui ont marché.*
 
-[IMAGE 1 — couverture : capture réelle d'une partie à haute altitude, la tour serpentant dans le ciel étoilé. 1500×750.]
+![177 mètres, en mode Zen : le ciel étoilé, la lune endormie et la constellation du jeu. Vraie montée, vrai compteur](img/ep3-cover.png)
 
 ---
 
@@ -28,7 +28,7 @@ Ce pilote a des options qui en disent long sur la manière de travailler avec un
 
 Dernier raffinement, mon préféré : comment choisir, dans un clip de sept cents images, la fenêtre où la tour s'effondre vraiment ? À l'œil, on la rate, c'est documenté deux fois dans mon journal de production. La sélection est donc passée à une mesure d'énergie de mouvement entre images successives, avec une subtilité qui a valeur de leçon : un bloc qui atterrit produit le même pic qu'une tour qui s'effondre. Un impact fait un pic bref ; un effondrement fait un pic qui dure. Le détecteur travaille donc sur une moyenne glissante. Quand l'œil doit choisir parmi des milliers d'images, on ne discipline pas l'œil, on le remplace par un capteur.
 
-[IMAGE 2 — ici : grille de quatre captures produites par le pilote automatique, dont une tour élaborée et un effondrement. Format 1500 px de large.]
+![Quatre productions du pilote automatique : tour élaborée, effondrement, décor forcé, panneau d'interface](img/ep3-pilote-grille.png)
 
 ## Mesurer où vit le pixel
 
