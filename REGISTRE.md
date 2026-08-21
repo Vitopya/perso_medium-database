@@ -76,3 +76,10 @@ Trois propositions collées par des virgules sans conjonction (« la gravité fa
 - Sous-titre : précise l'angle designer + IA + promesse de l'épisode.
 - Tags (anglais, 5) : product design, ai, indie game, solo builder, + spécifique épisode.
 - Résumé 2-3 phrases, troisième personne.
+
+## 8 · Mise en brouillon sur Medium
+Medium refuse son éditeur au navigateur interne de Claude : il le classe comme Electron et sa configuration serveur renvoie `supportsDesktopEdit: false` et `supportsFileAPI: false`, ce qui redirige `/new-story` vers la page « Start writing in the Medium app ». Le verdict est calculé à partir de l'en-tête User-Agent, non modifiable depuis la page, donc aucun contournement côté client n'existe. Un agent ne peut pas créer ces brouillons ; il prépare, un humain colle.
+
+Le pipeline retenu est le collage riche. `node medium-drafts/build.js` convertit les `.md` en pages HTML autonomes où chaque image pointe vers son adresse `raw.githubusercontent.com`. On ouvre la page dans un vrai navigateur, `Ctrl+A` `Ctrl+C`, puis `Ctrl+V` dans un brouillon Medium vide : titre, sous-titre, sections, images et légendes arrivent en une fois, Medium allant chercher les images à leur adresse publique et les réhébergeant. Le dépôt doit rester public le temps que les trois brouillons soient créés.
+
+Deux propriétés du gabarit comptent. Le `<h1>` devient le titre et le `<h2>` qui le suit immédiatement devient le sous-titre, donc le chapô en italique du `.md` sert de sous-titre Medium tandis que la version courte de `METADONNEES.md` sert d'aperçu. Les pages forcent `color-scheme: light` : sans ça le navigateur en thème sombre inverse les couleurs et la copie part d'une page illisible.
